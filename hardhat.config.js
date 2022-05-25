@@ -8,7 +8,7 @@ const {API_URL_KEY, PRIVATE_KEY} = process.env; //environment variables are bein
 
 module.exports = {
   solidity: "0.8.1",
-  defaultNetwork: 'rinkeby',
+  // defaultNetwork: 'rinkeby',
   networks: {
     hardhat: {},
     rinkeby: {
